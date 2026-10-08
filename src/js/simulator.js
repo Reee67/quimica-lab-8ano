@@ -540,7 +540,7 @@ function updateInfoPanel() {
         <h4 class="sim-info-h">🔬 Modo Detalhado</h4>
         <div class="sim-detail-row"><span>Estado físico:</span> <span>${r.reactants.map(r2 => r2.label).join(', ')} → ${r.products.map(p => p.label).join(', ')}</span></div>
         <div class="sim-detail-row"><span>Tipo de reação:</span> <span>${r.type}</span></div>
-        <div class="sim-detail-row"><span>Equação balanceada:</span> <span style="color:#00ff88">${r.equation}</span></div>
+        <div class="sim-detail-row"><span>Equação balanceada:</span> <span class="sim-eq-inline">${r.equation}</span></div>
       </div>
     `;
   }
