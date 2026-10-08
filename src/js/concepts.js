@@ -253,6 +253,9 @@ export function renderAbout() {
           <h4>⚠️ Aviso Importante</h4>
           <p>${aboutContent.note}</p>
         </div>
+        <div class="about-author">
+          <p>${aboutContent.author}</p>
+        </div>
       </div>
     </div>
   `;

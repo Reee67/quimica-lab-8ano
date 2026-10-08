@@ -208,21 +208,21 @@
 .concept-type-card:hover { border-color: rgba(77,171,247,0.25); transform: translateY(-2px); }
 .concept-type-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem; }
 .concept-type-icon { font-size: 1.5rem; }
-.concept-type-name { font-size: 1rem; font-weight: 700; color: #fff; }
+.concept-type-name { font-size: 1rem; font-weight: 700; color: var(--text-primary); }
 .concept-type-general { font-family: 'Courier New', monospace; font-size: 0.85rem; color: #00ff88; margin-bottom: 0.4rem; }
-.concept-type-explain { font-size: 0.82rem; color: rgba(255,255,255,0.6); line-height: 1.5; margin-bottom: 0.5rem; }
+.concept-type-explain { font-size: 0.82rem; color: var(--text-primary); line-height: 1.5; margin-bottom: 0.5rem; }
 .concept-type-example { background: rgba(0,0,0,0.2); border-radius: 8px; padding: 0.4rem 0.6rem; font-size: 0.78rem; }
-.concept-example-label { color: rgba(255,255,255,0.4); }
+.concept-example-label { color: var(--text-secondary); }
 .concept-example-name { color: #a5d8ff; }
-.concept-example-eq { font-family: 'Courier New', monospace; color: #fff; display: block; margin-top: 0.2rem; }
-.concepts-evidence-intro { font-size: 0.85rem; color: rgba(255,255,255,0.5); margin-bottom: 0.75rem; line-height: 1.5; }
+.concept-example-eq { font-family: 'Courier New', monospace; color: var(--text-primary); display: block; margin-top: 0.2rem; }
+.concepts-evidence-intro { font-size: 0.85rem; color: var(--text-primary); margin-bottom: 0.75rem; line-height: 1.5; }
 .concepts-evidence-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.75rem; }
 .evidence-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(77,171,247,0.1); border-radius: 12px; padding: 1rem; transition: all 0.25s; }
 .evidence-card:hover { border-color: rgba(77,171,247,0.25); }
 .evidence-icon { font-size: 2rem; margin-bottom: 0.3rem; }
-.evidence-title { font-size: 0.95rem; font-weight: 700; color: #fff; margin-bottom: 0.3rem; }
-.evidence-text { font-size: 0.8rem; color: rgba(255,255,255,0.6); line-height: 1.5; margin-bottom: 0.5rem; }
-.evidence-detail { margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.05); }
+.evidence-title { font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.3rem; }
+.evidence-text { font-size: 0.8rem; color: var(--text-primary); line-height: 1.5; margin-bottom: 0.5rem; }
+.evidence-detail { margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid var(--border-light); }
 .evidence-example { font-size: 0.78rem; color: #a5d8ff; margin-bottom: 0.3rem; }
 .evidence-caution { font-size: 0.78rem; color: #fab005; }
 .evidence-toggle { background: none; border: none; color: #4dabf7; font-size: 0.78rem; cursor: pointer; padding: 0; }
@@ -244,23 +244,25 @@
 .learn-card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
 .learn-card-icon { font-size: 1.5rem; }
 .learn-card-title { font-family: var(--serif); font-weight: 700; font-style: italic; font-size: 1.15rem; color: #4dabf7; }
-.learn-card-text { color: rgba(255,255,255,0.7); font-size: 0.88rem; line-height: 1.6; margin-bottom: 0.75rem; }
+.learn-card-text { color: var(--text-primary); font-size: 0.88rem; line-height: 1.6; margin-bottom: 0.75rem; }
 .learn-card-example { background: rgba(0,0,0,0.2); border-radius: 8px; padding: 0.6rem 0.85rem; margin-top: 0.5rem; }
-.learn-example-label { font-size: 0.7rem; color: rgba(255,255,255,0.4); }
+.learn-example-label { font-size: 0.7rem; color: var(--text-secondary); }
 .learn-example-pre { font-family: 'Courier New', monospace; font-size: 0.85rem; color: #00ff88; margin: 0.3rem 0 0 0; white-space: pre-wrap; }
 
 /* ===== ABOUT ===== */
 .about-container { max-width: 600px; margin: 0 auto; }
 .about-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(77,171,247,0.15); border-radius: 12px; padding: 2rem; }
-.about-title { font-family: var(--serif); font-weight: 700; font-style: italic; font-size: 1.5rem; color: #4dabf7; margin-bottom: 0.75rem; }
-.about-mission { font-size: 0.9rem; color: rgba(255,255,255,0.7); line-height: 1.6; margin-bottom: 1rem; }
-.about-subtitle { font-size: 1rem; font-weight: 700; color: #a5d8ff; margin-bottom: 0.5rem; }
+.about-title { font-family: var(--serif); font-weight: 700; font-style: italic; font-size: 1.5rem; color: var(--green); margin-bottom: 0.75rem; }
+.about-mission { font-size: 0.9rem; color: var(--text-primary); line-height: 1.6; margin-bottom: 1rem; }
+.about-subtitle { font-size: 1rem; font-weight: 700; color: var(--text-secondary); margin-bottom: 0.5rem; }
 .about-features { list-style: none; padding: 0; margin-bottom: 1rem; }
-.about-features li { font-size: 0.82rem; color: rgba(255,255,255,0.6); padding: 0.3rem 0; padding-left: 1.2rem; position: relative; }
+.about-features li { font-size: 0.82rem; color: var(--text-primary); padding: 0.3rem 0; padding-left: 1.2rem; position: relative; }
 .about-features li::before { content: '✓'; color: #00ff88; position: absolute; left: 0; }
 .about-note { background: rgba(250,176,5,0.05); border: 1px solid rgba(250,176,5,0.15); border-radius: 8px; padding: 0.85rem; }
 .about-note h4 { color: #fab005; font-size: 0.85rem; margin-bottom: 0.3rem; }
-.about-note p { font-size: 0.8rem; color: rgba(255,255,255,0.5); line-height: 1.5; }
+.about-note p { font-size: 0.8rem; color: var(--text-primary); line-height: 1.5; }
+.about-author { margin-top: 1.5rem; text-align: center; }
+.about-author p { font-size: 0.85rem; color: var(--text-secondary); font-style: italic; }
 
 /* ===== HOME CONCEPTS ===== */
 .home-concepts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 800px; margin: 2rem auto; }
@@ -268,7 +270,7 @@
 .home-concept-card:hover { border-color: rgba(77,171,247,0.25); transform: translateY(-3px); }
 .home-concept-icon { font-size: 2.5rem; margin-bottom: 0.5rem; }
 .home-concept-title { font-size: 0.9rem; font-weight: 700; color: #4dabf7; margin-bottom: 0.3rem; letter-spacing: 0.5px; }
-.home-concept-desc { font-size: 0.8rem; color: rgba(255,255,255,0.5); }
+.home-concept-desc { font-size: 0.8rem; color: var(--text-primary); }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {

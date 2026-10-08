@@ -114,6 +114,7 @@ export const learnTopics = [
 export const aboutContent = {
   mission: 'O Química Lab é uma plataforma educacional gratuita que ajuda estudantes a visualizar e compreender reações químicas de forma interativa, com simulador visual, catálogo de reações e conteúdo didático.',
   note: 'Este site é uma ferramenta educacional. As simulações são simplificações didáticas e não substituem a realização de experimentos em laboratório. Sempre siga as normas de segurança ao realizar experimentos reais em laboratório supervisionado por um profissional habilitado.',
+  author: 'Site desenvolvido por Rebecca Santos Gurski, aluna do 8º ano da Escola Referência Mundo Mágico.',
   features: [
     'Simulador visual com animação molecular em tempo real',
     'Equações quimicamente corretas e balanceadas',
