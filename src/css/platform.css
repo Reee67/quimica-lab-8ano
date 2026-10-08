@@ -41,7 +41,7 @@
   background: rgba(0,0,0,0.3); border-radius: 8px; padding: 0.6rem 1rem;
 }
 .sim-eq-label { font-size: 0.75rem; color: rgba(255,255,255,0.4); }
-.sim-eq-text { font-family: 'Courier New', monospace; font-size: 1rem; color: #00ff88; font-weight: 700; }
+.sim-eq-text { font-family: 'Courier New', monospace; font-size: 1rem; color: #008f4c; font-weight: 700; }
 .sim-controls { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
 .sim-ctrl-btn {
   width: 36px; height: 36px; border-radius: 8px; border: 1px solid rgba(77,171,247,0.2);
@@ -159,7 +159,7 @@
 .cat-card-header { display: flex; justify-content: flex-end; margin-bottom: 0.5rem; }
 .cat-card-type { font-size: 0.65rem; padding: 0.15rem 0.5rem; border-radius: 6px; font-weight: 600; }
 .cat-card-name { font-size: 0.95rem; font-weight: 700; color: #fff; margin-bottom: 0.3rem; }
-.cat-card-eq { font-family: 'Courier New', monospace; font-size: 0.82rem; color: #00ff88; margin-bottom: 0.5rem; }
+.cat-card-eq { font-family: 'Courier New', monospace; font-size: 0.82rem; color: #008f4c; margin-bottom: 0.5rem; }
 .cat-card-mols { font-size: 0.8rem; display: flex; align-items: center; gap: 0.3rem; flex-wrap: wrap; margin-bottom: 0.75rem; }
 .cat-mol { font-family: 'Courier New', monospace; font-weight: 700; }
 .cat-arrow { color: rgba(255,255,255,0.3); }
@@ -188,7 +188,7 @@
 }
 .cat-detail-type { display: inline-block; font-size: 0.7rem; padding: 0.2rem 0.6rem; border-radius: 6px; font-weight: 600; margin-bottom: 0.5rem; }
 .cat-detail-name { font-family: var(--serif); font-weight: 700; font-style: italic; font-size: 1.3rem; color: #fff; margin-bottom: 0.5rem; }
-.cat-detail-eq { font-family: 'Courier New', monospace; font-size: 1.1rem; color: #00ff88; background: rgba(0,0,0,0.3); border-radius: 8px; padding: 0.5rem 1rem; margin-bottom: 1rem; text-align: center; }
+.cat-detail-eq { font-family: 'Courier New', monospace; font-size: 1.1rem; color: #008f4c; background: rgba(0,0,0,0.3); border-radius: 8px; padding: 0.5rem 1rem; margin-bottom: 1rem; text-align: center; }
 .cat-detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
 .cat-detail-section { margin-bottom: 0.75rem; }
 .cat-detail-section h4 { font-size: 0.82rem; color: #a5d8ff; margin-bottom: 0.3rem; }
@@ -209,7 +209,7 @@
 .concept-type-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem; }
 .concept-type-icon { font-size: 1.5rem; }
 .concept-type-name { font-size: 1rem; font-weight: 700; color: var(--text-primary); }
-.concept-type-general { font-family: 'Courier New', monospace; font-size: 0.85rem; color: #00ff88; margin-bottom: 0.4rem; }
+.concept-type-general { font-family: 'Courier New', monospace; font-size: 0.85rem; color: #008f4c; margin-bottom: 0.4rem; }
 .concept-type-explain { font-size: 0.82rem; color: var(--text-primary); line-height: 1.5; margin-bottom: 0.5rem; }
 .concept-type-example { background: rgba(0,0,0,0.2); border-radius: 8px; padding: 0.4rem 0.6rem; font-size: 0.78rem; }
 .concept-example-label { color: var(--text-secondary); }
@@ -247,7 +247,7 @@
 .learn-card-text { color: var(--text-primary); font-size: 0.88rem; line-height: 1.6; margin-bottom: 0.75rem; }
 .learn-card-example { background: rgba(0,0,0,0.2); border-radius: 8px; padding: 0.6rem 0.85rem; margin-top: 0.5rem; }
 .learn-example-label { font-size: 0.7rem; color: var(--text-secondary); }
-.learn-example-pre { font-family: 'Courier New', monospace; font-size: 0.85rem; color: #00ff88; margin: 0.3rem 0 0 0; white-space: pre-wrap; }
+.learn-example-pre { font-family: 'Courier New', monospace; font-size: 0.85rem; color: #008f4c; margin: 0.3rem 0 0 0; white-space: pre-wrap; }
 
 /* ===== ABOUT ===== */
 .about-container { max-width: 600px; margin: 0 auto; }

@@ -4590,7 +4590,7 @@ body {
 /* Diary */
 .lr-diary { max-width: 600px; margin: 0 auto; }
 .lr-diary-entry { background: rgba(255,255,255,0.03); border: 1px solid rgba(77,171,247,0.1); border-radius: 12px; padding: 1rem; margin-bottom: 0.75rem; }
-.lr-diary-eq { font-family: 'Courier New', monospace; font-size: 1rem; color: #00ff88; margin-bottom: 0.3rem; }
+.lr-diary-eq { font-family: 'Courier New', monospace; font-size: 1rem; color: #008f4c; margin-bottom: 0.3rem; }
 .lr-diary-meta { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.3rem; }
 .lr-diary-date { font-size: 0.7rem; color: rgba(255,255,255,0.3); }
 .lr-diary-desc { font-size: 0.8rem; color: rgba(255,255,255,0.6); }
@@ -4841,6 +4841,15 @@ body {
 .dark-theme .about-card {
   background: rgba(20, 20, 40, 0.6);
   border-color: rgba(0, 214, 101, 0.15);
+}
+
+.dark-theme .sim-eq-text,
+.dark-theme .cat-card-eq,
+.dark-theme .cat-detail-eq,
+.dark-theme .concept-type-general,
+.dark-theme .learn-example-pre,
+.dark-theme .lr-diary-eq {
+  color: #00ff88;
 }
 
 .dark-theme .home-concept-card:hover,
